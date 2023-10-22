@@ -1,0 +1,30 @@
+  const posts = [
+    {
+      id: 1,
+      heading: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!",
+      date:"2020-11-20",
+      img: "https://images.pexels.com/photos/12470942/pexels-photo-12470942.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    },
+    {
+      id: 2,
+      heading: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!",
+      date:"2020-11-25",
+      img: "https://images.pexels.com/photos/18633862/pexels-photo-18633862/free-photo-of-autumn-leaves-on-a-branch-in-the-woods.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+      id: 3,
+      heading: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!",
+      date:"2020-10-04",
+      img: "https://images.pexels.com/photos/5368118/pexels-photo-5368118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    },
+    {
+      id: 4,
+      heading: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+      description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. A possimus excepturi aliquid nihil cumque ipsam facere aperiam at! Ea dolorem ratione sit debitis deserunt repellendus numquam ab vel perspiciatis corporis!",
+      date:"2021-01-15",
+      img: "https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    },
+  ];

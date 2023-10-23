@@ -3,10 +3,10 @@ import { db } from "../db.js";
 //Showing all Tasks
 export const getTasks = (req, res) => {
   const q = req.query.prio
-    ? "SELECT * FROM posts WHERE priority=?"
+    ? "SELECT * FROM tasks WHERE priority=?"
     : "SELECT * FROM tasks ORDER BY date ASC";
 
-  db.query(q, (err, data) => {
+  db.query(q, [req.query.prio], (err, data) => {
     if (err) return res.status(500).send(err);
     return res.status(200).json(data);
   });
@@ -16,7 +16,7 @@ export const getTasks = (req, res) => {
 
 export const getTask = (req, res) => {
   const q =
-    "SELECT tasks.id, `heading`, `description`,`date`,`image` FROM tasks WHERE tasks.id = ? ";
+    "SELECT tasks.id, `heading`, `description`,`date`,`image`, `priority` FROM tasks WHERE tasks.id = ? ";
   //const q = "SELECT * FROM tasks WHERE tasks.id = ?";
 
   db.query(q, [req.params.id], (err, data) => {
